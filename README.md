@@ -4,11 +4,11 @@ This is a very simple web server.
 The goal is to experiment with Clojure, using 3rd party libraries where possible
 to simplify managing things like:
 
-- Package management: (Leiningen)[http://leiningen.org/]
-- HTTP Web Serving: (Ring)[https://github.com/ring-clojure/ring]
-- URL Routing: (Compojure)[https://github.com/weavejester/compojure]
-- Data Access: (Korma)[http://www.sqlkorma.com/]
-- CSV Generation: (Clojure-csv)[https://github.com/davidsantiago/clojure-csv/blob/master/test/clojure_csv/test/core.clj]
+- Package management: [Leiningen](http://leiningen.org/)
+- HTTP Web Serving: [Ring](https://github.com/ring-clojure/ring)
+- URL Routing: [Compojure](https://github.com/weavejester/compojure)
+- Data Access: [Korma](http://www.sqlkorma.com/)
+- CSV Generation: [Clojure-csv](https://github.com/davidsantiago/clojure-csv/blob/master/test/clojure_csv/test/core.clj)
 
 # Implementation Details
 This webapp is designed to operate directly on the lp-webapp database, loading
