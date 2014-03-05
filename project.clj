@@ -2,7 +2,7 @@
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/data-json "0.2.4"]
+                 [org.clojure/data.json "0.2.4"]
                  [compojure "1.1.6"]
                  [korma "0.3.0-RC6"]
                  [mysql/mysql-connector-java "5.1.6"]
