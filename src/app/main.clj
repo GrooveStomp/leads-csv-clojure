@@ -66,7 +66,7 @@
 ;--------------------------- Compojure Routes ----------------------------------
 
 (defroutes app-routes
-  (GET "/pages/:page_id" [page_id]
+  (GET "/page/:page_id" [page_id]
        (page-leads-as-csv page_id))
   (route/resources "/")
   (route/not-found "Not Found"))

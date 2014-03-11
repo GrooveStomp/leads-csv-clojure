@@ -38,7 +38,7 @@ lein ring server-headless
 Now go to your browser and enter:
 
 ```
-http://localhost:3000/pages/:page_id
+http://localhost:3000/page/:page_id
 ```
 
 Where `page_id` is a valid page ID for your local `lp_webapp` database.
